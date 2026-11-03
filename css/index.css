@@ -735,9 +735,11 @@ z-index: 10003;
     background:#EC5504;
     color:white;
     padding-top:45px;
-    min-height: 90vh;
-    width: 100%;
-    margin: 0;
+    min-height:800px;
+      width: 100%;
+    
+
+
 
 }
 
@@ -751,6 +753,9 @@ z-index: 10003;
     align-items:flex-start;
     padding:40px;
     border-radius: 16px;
+    margin-bottom: 8px;
+    height:645px;
+
 
 }
 
@@ -856,12 +861,12 @@ line-height:45px;
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 0%;
-    margin-bottom: 50px;
+    margin-bottom: 24px;
     margin-top: 19px;
 
 }
 .paragraph1{
-    margin-bottom: 60px;
+    margin-bottom: 24px;
     padding-left: 50px;
     font-size: 18px;
 
@@ -871,11 +876,13 @@ line-height:45px;
     color:#F8B29D;
     margin-bottom: 18px;
     font-size: 18px;
+    margin-top: 10px;
 }
 .items{
     font-size: 18px;
     direction: ltr;
-    line-height: 2;
+    line-height: 1.6;
+
 }
 
 .items2{
@@ -940,10 +947,12 @@ line-height:45px;
 @media(max-width:1105px){
     #products {
     padding-top: 40px;
-    padding-bottom: 60px;
+    padding-bottom: 8px;
     width: auto;
     margin-left: 0;
     margin-right: 0;
+    min-height:1050px;
+
 }
 
 .colorblack {
@@ -952,7 +961,9 @@ line-height:45px;
     padding: 28px 20px 60px;
     border-radius: 16px;
     gap: 0;
-    min-height: 750px;
+    height:940px;
+    padding-bottom: 8px;
+
     
 
 }
@@ -1012,6 +1023,7 @@ h4 {
 
 .items {
     text-align: right;
+    font-size: 15px;
 }
 .check {
     width: 18px !important;
@@ -1037,7 +1049,7 @@ h4 {
 }
 
 .mis-col div {
-    font-size: 15px;
+    font-size: 18px;
     color: white;
     display: flex;
     align-items: flex-start;
@@ -1049,83 +1061,7 @@ h4 {
 /* ===== فقط اسلاید FLM (data-slide="2") – موبایل ===== */
 
 
-    #product-slider .product-slide[data-slide="0"].active {
-        display: flex;
-        flex-direction: column;
-        align-items: stretch;
-        gap: 20px;
-        width: 100%;
-    }
 
-    /* تصویر و نقاط اسلایدر */
-    #product-slider .product-slide[data-slide="0"] .pictureright {
-        order: 1;
-        position: relative;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-        padding-top: 25px;
-    }
-
-    #product-slider .product-slide[data-slide="0"] .slider-dots {
-        position: absolute;
-        top: 0;
-        right: 0;
-        display: flex;
-        justify-content: flex-start;
-        gap: 6px;
-        padding: 0;
-        margin: 0;
-    }
-
-    #product-slider .product-slide[data-slide="0"] .picture-frame {
-        width: 100%;
-        margin-top: 15px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #product-slider .product-slide[data-slide="0"] .picture-frame img {
-        width: 100%;
-        max-width: 300px;
-        height: auto;
-        max-height: none;
-        object-fit: contain;
-    }
-
-    /* متن اسلاید */
-    #product-slider .product-slide[data-slide="0"] .leftwrite {
-        order: 2;
-        width: 100%;
-        text-align: right;
-        direction: rtl;
-    }
-
-    #product-slider .product-slide[data-slide="0"] h4 {
-        font-size: clamp(18px, 4vw, 22px);
-        line-height: 1.7;
-        text-align: center;
-        margin: 0 0 16px;
-    }
-
-    #product-slider .product-slide[data-slide="0"] .paragraph1 {
-        width: 100%;
-        padding: 0;
-        margin-bottom: 22px;
-        font-size: 15px;
-        line-height: 2;
-        text-align: justify;
-        direction: rtl;
-    }
-
-    #product-slider .product-slide[data-slide="0"] .paragraph2 {
-        text-align: right;
-        font-size: 16px;
-        margin: 10px 0 15px;
-    }
 
     /* امکانات اصلی */
     #product-slider .product-slide[data-slide="0"] .items2 {
@@ -1187,6 +1123,7 @@ h4 {
     text-align: right;
     white-space: nowrap;
     direction: rtl;
+    margin-top:-10px;
 
 }
 
@@ -1200,7 +1137,7 @@ h4 {
     gap: 12px;
     width: 100%;
     direction: rtl !important;
-    font-size: 13.5px;
+    font-size: 14px;
     line-height: 1.55;
 }
 
@@ -1246,7 +1183,7 @@ h4 {
     width: 100%;
     direction: rtl;
     font-size: 14px;         
-    line-height: 1.6;
+    line-height: 1.4;
     color: white;
     text-align: right;
     white-space: normal;
